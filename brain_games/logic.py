@@ -1,26 +1,27 @@
 #!/usr/bin/env python3
 import prompt
-from random import randint
 
+ROUNDS = 3
 
-def is_even():
-    random_number = randint(1, 100)
-    print(f'Question: {random_number}')
-    answer = prompt.string('Your answer: ')
+def start_game(game):
+    print('Welcome to the Brain Games!')
+    name = prompt.string('May I have your name?')
+    print(f'Hello, {name}')
+    print(game.TASK)
     index = 0
-    count = 3
-    Congratulations = print('Congratulations, {name}!')
-    while index < count:
-        if random_number % 2 == 0 and answer == 'yes':
-            print('Correct!')
+
+    while index < ROUNDS:
+        question, correct_answer = game.question_answer()
+        print(f'Question: {question}')
+        answer = prompt.string('Your answer: ')
+
+        if correct_answer == answer:
+            print('Correct !')
             index += 1
-        elif random_number % 2 != 0 and answer == 'yes':
-            print("'yes' is wrong answer ;(. Correct answer was 'no'.\nLet's try again, {name}!")
-            index += 1
-        elif random_number % 2 == 0 and answer == 'no':
-            print("'yes' is wrong answer ;(. Correct answer was 'no'.\nLet's try again, {name}!")
-            index += 1
-        elif random_number % 2 != 0 and answer == 'no':
-            print('Correct!')
-            index += 1
-    return Congratulations
+        else:
+            print(
+                f"'{answer}'is wrong answer ;(. Correct answer was "
+                f"'{correct_answer}'.\nLet's try again, {name}!"
+            )
+            return
+    print(f'Congratulations, {name}!')

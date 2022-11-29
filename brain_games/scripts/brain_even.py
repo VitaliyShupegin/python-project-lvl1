@@ -1,17 +1,13 @@
 #!/usr/bin/env python3
 
-import prompt
-from brain_games.logic import is_even
 
-def welcome_user():
-    name = prompt.string('May I have your name?')
-    print(f'Hello, {name}!')
+from brain_games.games import even
+from brain_games.logic import start_game
+
 
 def main():
-    print('Welcome to the Brain Games!')
-    welcome_user()
-    print('Answer "yes" if the number is even, otherwise answer "no".')
-    is_even()
+    start_game(even)
+
 
 if __name__ == '__main__':
     main()
