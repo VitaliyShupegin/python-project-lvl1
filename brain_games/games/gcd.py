@@ -3,6 +3,7 @@ from random import randint
 import math
 TASK = 'Find the greatest common divisor of given numbers.'
 
+
 def question_answer():
     num1 = randint(0, 20)
     num2 = randint(0, 20)
