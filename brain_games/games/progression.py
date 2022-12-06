@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 from random import randint, choice
-TASK= 'What number is missing in the progression?'
+TASK = 'What number is missing in the progression?'
 
 
 def question_answer():
@@ -14,4 +14,4 @@ def question_answer():
     correct_answer = result[elem]
     result[elem] = '..'
     question = " ".join(result)
-    return question , correct_answer
+    return question, correct_answer
