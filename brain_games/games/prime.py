@@ -2,6 +2,7 @@
 from random import randint
 TASK = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
+
 def is_prime(num):
     result = 2
     while num % result != 0:
@@ -12,7 +13,7 @@ def is_prime(num):
 def question_answer():
     question = randint(0, 100)
     if is_prime(question):
-          correct_answer = 'yes'
+        correct_answer = 'yes'
     else:
         correct_answer = 'no'
     return question, correct_answer
