@@ -14,6 +14,10 @@
     4) "Арифметическая прогрессия" https://asciinema.org/a/ynsAe5PEEHnOUW5gjDWnu8jJk
   
  Показываем игроку ряд чисел, образующий арифметическую прогрессию, заменив любое из чисел двумя точками. Игрок должен определить это число.
+ 
+   5) "Простое ли число?"  https://asciinema.org/a/7ENsiwdiEXBv8NkHdX5R3OQQ1
+
+
 
 ###  CodeClimate
 <a href="https://codeclimate.com/github/VitaliyShupegin/python-project-lvl1/maintainability"><img src="https://api.codeclimate.com/v1/badges/e349dbb3b9277ec94475/maintainability" /></a>
