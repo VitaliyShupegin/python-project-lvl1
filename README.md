@@ -1,11 +1,11 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/VitaliyShupegin/python-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/VitaliyShupegin/python-project-lvl1/actions)
 ### asciinema
-Игра: 1)"Проверка на чётность" https://asciinema.org/a/t37bHULFVGg7eeJ6jyRCldvey
+Игра: 1)"Проверка на чётность" https://asciinema.org/a/mPV2gG0FziwYPJw5KeIPNP3J7
 
 Необходимо реализовать игру "Проверка на чётность". Суть игры в следующем: пользователю показывается случайное число. И ему нужно ответить yes, если число чётное, или no — если нечётное.
 
-      2) "Калькулятор"  https://asciinema.org/a/Zf9NcU2OsMrDDCMF4S0kMSLvD
+      2) "Калькулятор"  https://asciinema.org/a/0EhFDbia4tqmD35zWrBH2A4iC
 Необходимо реализовать игру "Калькулятор". Суть игры в следующем: пользователю показывается случайное математическое выражение, например 35 + 16, которое нужно вычислить и записать правильный ответ.
 
      3)"НОД"  https://asciinema.org/a/9C3bey6NM6PzY83zHiNaHUpXi
