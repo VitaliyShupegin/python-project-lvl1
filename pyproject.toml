@@ -1,9 +1,13 @@
 [tool.poetry]
 name = "hexlet-code"
 version = "0.1.0"
-description = ""
-classifiers = []
+description = "The program contains 5 games"
+classifiers = [
+    "Topic :: Software Development :: Build Tools",
+    "Topic :: Software Development :: Libraries :: Python Modules"
+]
 authors = ["vitaliy shupegin <vitaliy.shupegin@mail.ru>"]
+repository = "https://github.com/VitaliyShupegin/python-project-lvl1"
 readme = "README.md"
 packages = [
   { include = "brain_games" },
