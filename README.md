@@ -48,7 +48,7 @@
  <a href="https://asciinema.org/a/ynsAe5PEEHnOUW5gjDWnu8jJk" target="_blank"><img src="https://asciinema.org/a/ynsAe5PEEHnOUW5gjDWnu8jJk.svg" /></a>
  
    5) "Простое ли число?"  brain-prime
-   6) 
+   
 
 Ответьте "да", если данное число является простым. В противном случае ответьте "нет".
 
