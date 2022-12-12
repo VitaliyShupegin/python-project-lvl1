@@ -5,12 +5,19 @@
 
 ### Установка пакета
 1.установлен  pip. Потребуется версия 19 и выше
+
 2. python версии 3.6 или выше
+ 
 3. poetry имеет версию "1.2.0" и выше
+  
 4. make install:poetry install
+ 
 5. make brain-games:poetry run brain-games
+ 
 6. make build:poetry build
+ 
 7. make publish:poetry publish --dry-run
+ 
 8. make package-install:python3 -m pip install dist/*.whl --force-reinstall
 
 ### asciinema
