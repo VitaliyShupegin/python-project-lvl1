@@ -8,7 +8,7 @@ def is_prime(num):
         return False
     i = 2
     while i < num:
-        if num % i !=0:
+        if num % i != 0:
             i += 1
         else:
             return False

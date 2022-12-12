@@ -1,17 +1,22 @@
 #!/usr/bin/env python3
-from random import randint, choice
+from random import randint
 TASK = 'What number is missing in the progression?'
 
 
+def generate_progression(start, stop, interval):
+
+    list = [str(i) for i in range(start, stop, interval)]
+
+    return list
+
+
 def get_question_and_answer():
-    num1 = randint(0, 10)
-    step = randint(1, 10)
-    result = []
-    for i in range(10):
-        next_step = num1 + step * i
-        result.append(str(next_step))
-    elem = choice(range(len(result) - 1))
-    correct_answer = result[elem]
-    result[elem] = '..'
-    question = " ".join(result)
+    interval = randint(0, 10)
+    start = randint(1, 10)
+    stop = start + (interval * 10)
+    progression = generate_progression(start, stop, interval)
+    index_replace = randint(0, len(progression) - 1)
+    correct_answer = progression[index_replace]
+    progression[index_replace] = '..'
+    question = " ".join(progression)
     return question, correct_answer
