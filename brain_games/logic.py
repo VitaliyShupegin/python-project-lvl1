@@ -9,16 +9,16 @@ def start_game(game):
     name = prompt.string('May I have your name?')
     print(f'Hello, {name}')
     print(game.TASK)
-    index = 0
+    attempt = 0
 
-    while index < ROUNDS:
+    while attempt < ROUNDS:
         question, correct_answer = game.question_answer()
         print(f'Question: {question}')
         answer = prompt.string('Your answer: ')
 
         if correct_answer == answer:
             print('Correct !')
-            index += 1
+            attempt += 1
         else:
             print(
                 f"'{answer}'is wrong answer ;(. Correct answer was "
