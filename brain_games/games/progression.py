@@ -11,7 +11,7 @@ def generate_progression(start, stop, interval):
 
 
 def get_question_and_answer():
-    interval = randint(0, 10)
+    interval = randint(1, 10)
     start = randint(1, 10)
     stop = start + (interval * 10)
     progression = generate_progression(start, stop, interval)
