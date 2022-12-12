@@ -4,7 +4,7 @@
 <a href="https://codeclimate.com/github/VitaliyShupegin/python-project-lvl1/maintainability"><img src="https://api.codeclimate.com/v1/badges/e349dbb3b9277ec94475/maintainability" /></a>
 
 ### asciinema
-Игра: 1)"Проверка на чётность" https://asciinema.org/a/mPV2gG0FziwYPJw5KeIPNP3J7
+Игра: 1)"Проверка на чётность"  https://asciinema.org/a/mPV2gG0FziwYPJw5KeIPNP3J7
 
 Необходимо реализовать игру "Проверка на чётность". Суть игры в следующем: пользователю показывается случайное число. И ему нужно ответить yes, если число чётное, или no — если нечётное.
 
