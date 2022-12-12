@@ -3,6 +3,16 @@
 ###  CodeClimate
 <a href="https://codeclimate.com/github/VitaliyShupegin/python-project-lvl1/maintainability"><img src="https://api.codeclimate.com/v1/badges/e349dbb3b9277ec94475/maintainability" /></a>
 
+### Установка пакета
+1.установлен  pip. Потребуется версия 19 и выше
+2. python версии 3.6 или выше
+3. poetry имеет версию "1.2.0" и выше
+4. make install:poetry install
+5. make brain-games:poetry run brain-games
+6. make build:poetry build
+7. make publish:poetry publish --dry-run
+8. make package-install:python3 -m pip install dist/*.whl --force-reinstall
+
 ### asciinema
 Игра: 1)"Проверка на чётность"  
 Необходимо реализовать игру "Проверка на чётность". Суть игры в следующем: пользователю показывается случайное число. И ему нужно ответить yes, если число чётное, или no — если нечётное.
