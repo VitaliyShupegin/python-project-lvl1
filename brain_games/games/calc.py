@@ -4,16 +4,20 @@ from random import randint, choice
 TASK = 'What is the result of the expression?'
 
 
+def get_arithmetic_expression(num1, num2, operator):
+    if operator == '+':
+        result = num1 + num2
+    elif operator == '-':
+        result = num1 - num2
+    elif operator == '*':
+        result = num1 * num2
+    return result
+
+
 def get_question_and_answer():
     num1 = randint(0, 20)
     num2 = randint(0, 20)
-    oper = choice(['+', '-', '*'])
-    question = f'{str(num1)} {oper} {str(num2)}'
-
-    if oper == '+':
-        correct_answer = num1 + num2
-    elif oper == '-':
-        correct_answer = num1 - num2
-    elif oper == '*':
-        correct_answer = num1 * num2
-    return question, str(correct_answer)
+    operator = choice(['+', '-', '*'])
+    question = f'{num1} {operator} {num2}'
+    correct_answer = str(get_arithmetic_expression(num1, num2, operator))
+    return question, correct_answer

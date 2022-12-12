@@ -4,10 +4,15 @@ TASK = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def is_prime(num):
-    result = 2
-    while num % result != 0:
-        result += 1
-    return result == num
+    if num == 0 or num == 1:
+        return False
+    i = 2
+    while i < num:
+        if num % i !=0:
+            i += 1
+        else:
+            return False
+    return True
 
 
 def get_question_and_answer():
@@ -16,4 +21,4 @@ def get_question_and_answer():
         correct_answer = 'yes'
     else:
         correct_answer = 'no'
-    return question, correct_answer
+    return str(question), correct_answer
