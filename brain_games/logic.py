@@ -12,7 +12,7 @@ def start_game(game):
     attempt = 0
 
     while attempt < ROUNDS:
-        question, correct_answer = game.question_answer()
+        question, correct_answer = game.get_question_and_answer()
         print(f'Question: {question}')
         answer = prompt.string('Your answer: ')
 

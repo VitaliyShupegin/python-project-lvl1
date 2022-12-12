@@ -9,7 +9,7 @@ def is_even(number):
     return 'yes' if number % 2 == 0 else 'no'
 
 
-def question_answer():
+def get_question_and_answer():
     question = randint(0, 100)
     correct_answer = is_even(question)
     return str(question), correct_answer

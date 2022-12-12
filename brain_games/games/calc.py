@@ -4,7 +4,7 @@ from random import randint, choice
 TASK = 'What is the result of the expression?'
 
 
-def question_answer():
+def get_question_and_answer():
     num1 = randint(0, 20)
     num2 = randint(0, 20)
     oper = choice(['+', '-', '*'])

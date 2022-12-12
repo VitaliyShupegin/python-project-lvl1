@@ -3,7 +3,7 @@ from random import randint, choice
 TASK = 'What number is missing in the progression?'
 
 
-def question_answer():
+def get_question_and_answer():
     num1 = randint(0, 10)
     step = randint(1, 10)
     result = []

@@ -10,7 +10,7 @@ def is_prime(num):
     return result == num
 
 
-def question_answer():
+def get_question_and_answer():
     question = randint(0, 100)
     if is_prime(question):
         correct_answer = 'yes'
