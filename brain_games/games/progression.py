@@ -15,8 +15,8 @@ def get_question_and_answer():
     start = randint(1, 10)
     stop = start + (interval * 10)
     progression = generate_progression(start, stop, interval)
-    index_replace = randint(0, len(progression) - 1)
-    correct_answer = progression[index_replace]
-    progression[index_replace] = '..'
+    index_to_replace = randint(0, len(progression) - 1)
+    correct_answer = progression[index_to_replace]
+    progression[index_to_replace] = '..'
     question = " ".join(progression)
     return question, correct_answer
