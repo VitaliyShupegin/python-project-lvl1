@@ -5,12 +5,11 @@ TASK = 'What is the result of the expression?'
 
 def get_arithmetic_expression(num1, num2, operator):
     if operator == '+':
-        result = num1 + num2
-    elif operator == '-':
-        result = num1 - num2
-    elif operator == '*':
-        result = num1 * num2
-    return result
+        return num1 + num2
+    if operator == '-':
+        return num1 - num2
+    if operator == '*':
+        return num1 * num2
 
 
 def get_question_and_answer():
