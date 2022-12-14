@@ -1,4 +1,5 @@
 from random import randint
+
 TASK = 'What number is missing in the progression?'
 
 

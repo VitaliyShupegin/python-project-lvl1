@@ -1,5 +1,6 @@
 from random import randint
 import math
+
 TASK = 'Find the greatest common divisor of given numbers.'
 
 
