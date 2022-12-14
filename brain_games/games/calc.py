@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 from random import randint, choice
 
 TASK = 'What is the result of the expression?'

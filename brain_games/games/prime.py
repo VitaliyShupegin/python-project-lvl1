@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 from random import randint
 TASK = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
